@@ -1,0 +1,30 @@
+.activate {
+    background: url(../../assets/img/activate.png) no-repeat;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+}
+.deactivate {
+    background: url(../../assets/img/deactivate.png) no-repeat;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+}
+
+.edit {
+    background: url(../../assets/img/deactivate.png) no-repeat;
+    display: inline-block;
+    height: 35px;
+    vertical-align: -18px;
+    width: 24px
+}
+
+.delete {
+    background: url(../../assets/img/deactivate.png) no-repeat;
+    display: inline-block;
+    height: 35px;
+    vertical-align: -18px;
+    width: 24px
+}

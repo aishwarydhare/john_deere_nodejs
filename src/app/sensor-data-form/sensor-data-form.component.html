@@ -1,0 +1,21 @@
+<p>
+  sensor-data-form works!
+</p>
+Name<input type="text" name="name" [(ngModel)]="name"/><br/>
+Sensor Type<input type="text" name="sensorType" [(ngModel)]="sensorType"/><br/>
+Measurement Unit<input type="text" name="measurementUnit" [(ngModel)]="MeasurementUnit"/><br/>
+Standard Min Value<input type="text" name="standardMinValue" [(ngModel)]="standardMinValue"/><br/>
+Standard MAx Value<input type="text" name="standardMaxValue" [(ngModel)]="standardMaxValue"/><br/>
+Graph Type<input type="text" name="graphType" [(ngModel)]="graphType"/><br/>
+Scale Minimum<input type="text" name="scaleMinimum" [(ngModel)]="scaleMinimum"/> <br/>
+Scale Maximum<input type="text" name="scaleMaximum" [(ngModel)]="scaleMaximum"/> <br/>
+Sensor Make<input type="text" name="sensorMake" [(ngModel)]="sensorMake"/> <br/>
+Sensor Model<input type="text" name="sensorModel" [(ngModel)]="sensorModel"/> <br/>
+Latitude<input type="text" name="latitude" [(ngModel)]="latitude"/> <br/>
+Longitude<input type="text" name="longitude" [(ngModel)]="longitude"/> <br/>
+LoRaGateway ID<input type="text" name="loRaGatewayID" [(ngModel)]="loRaGatewayID"/><br/>
+<!-- Created TimeStamp<input type="text" name="createdTimeStamp" [(ngModel)]="createdTimeStamp"/> -->
+Sensing Title<input type="text" name="sensingTitle" [(ngModel)]="sensingTitle"/> <br/>
+Sensing Location Name<input type="text" name="sensingLocationName" [(ngModel)]="sensingLocationName"/> <br/>
+Sensing Description sensingDescription<input type="text" name="sensingDescription" [(ngModel)]="sensingDescription"/> <br/>
+<input type="submit" (click)="onSave()"/>

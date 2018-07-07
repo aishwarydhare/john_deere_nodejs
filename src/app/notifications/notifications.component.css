@@ -1,0 +1,9 @@
+
+    .alertNew {
+        background: url(../../assets/img/new.png) no-repeat;
+        display: inline-block;
+        height: 35px;
+        vertical-align: -18px;
+        width: 24px
+    }
+
